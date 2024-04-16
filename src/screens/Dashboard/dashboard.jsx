@@ -252,7 +252,7 @@ const data3 = {
               </div>
             </div>
 
-            <div class="chart-container">
+            <div className="chart-container">
               <div>
                 <h4 className="heading-card">Weekly Activity</h4>
               <div className="chart-bar">

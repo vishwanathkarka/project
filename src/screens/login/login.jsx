@@ -41,8 +41,8 @@ const Login = () => {
           <div className="sub-contain">
             <div className="sub-contain-register">
               <p>
-                If you don't have an account register <br /> You can{" "}
-                <a href="">Register here !</a>
+                If you don&#8217;t have an account register <br /> You can
+                <a href="#">Register here !</a>
               </p>
             </div>
             <div className="sub-contain-img">
