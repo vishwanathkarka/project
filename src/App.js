@@ -1,9 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 import { Routes, Route } from "react-router-dom";
-import  Login from "./screens/login/login.jsx"
-import Signup from "./screens/signup/signup.jsx"
-import Dashboard from "./screens/Dashboard/dashboard.jsx"
+import  Login from "./screens/Login/Login.jsx"
+import Signup from "./screens/Signup/Signup.jsx"
+import Dashboard from "./screens/Dashboard/Dashboard.jsx"
 
 function App() {
   return (

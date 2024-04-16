@@ -1,0 +1,56 @@
+.sidebar{
+    border-right: 1px solid #DFE5EE;
+    height: 100vh;
+    width: 20vw;
+}
+.logo{
+    padding: 0.4rem;
+    margin: 0px;
+   
+}
+.sidebar-items{
+    margin-top: 1.5rem;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+   cursor: pointer;
+    height: 2.8rem;
+ margin: 10px 0;
+    gap:1.5rem
+}
+.border{
+    height: 3.5rem;
+
+    border-top-right-radius: 8px;
+    margin-right: 0.5rem;
+  
+}
+.border-selected{
+    height: 3.5rem;
+    border-right: 5px solid #2d60ff; 
+    border-top-right-radius: 8px;
+
+    border-bottom-right-radius: 8px;
+}
+.item-selected{
+    color:#2d60ff ;
+    font-size: 1.2rem;
+}
+.Logo-Content{
+    color:#b1b1b1;
+    font-weight: 300;
+
+}
+
+.Logo-Content{
+    font-size: 1.2rem;
+
+}
+
+@media screen and (max-width:1000px) {
+    .sidebar{
+        display: none;
+    } 
+}

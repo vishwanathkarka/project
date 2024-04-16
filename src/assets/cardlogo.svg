@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="iconfinder_business_finance_money-13_2784281_1" data-name="iconfinder_business_finance_money-13_2784281 1" width="25" height="25" fill="none" style="mix-blend-mode: normal;isolation: isolate"/>
+    </clipPath>
+  </defs>
+  <g id="Group_695" data-name="Group 695" style="mix-blend-mode: normal;isolation: isolate">
+    <path id="Ellipse_10" data-name="Ellipse 10" d="M0,25A25,25,0,1,1,25,50,25,25,0,0,1,0,25Z" fill="#fff5d9" style="mix-blend-mode: normal;isolation: isolate"/>
+    <g id="iconfinder_business_finance_money-13_2784281_1-2" data-name="iconfinder_business_finance_money-13_2784281 1" transform="translate(12 13)" clip-path="url(#clip-path)" style="mix-blend-mode: normal;isolation: isolate">
+      <rect id="iconfinder_business_finance_money-13_2784281_1-3" data-name="iconfinder_business_finance_money-13_2784281 1" width="25" height="25" fill="none" style="mix-blend-mode: normal;isolation: isolate"/>
+      <g id="_1" data-name="1" transform="translate(2.734 6.445)" style="mix-blend-mode: normal;isolation: isolate">
+        <path id="Vector" d="M2.337,11.583A2.339,2.339,0,0,1,0,9.246V2.337A2.339,2.339,0,0,1,2.337,0H13.913A2.339,2.339,0,0,1,16.25,2.337V9.246a2.339,2.339,0,0,1-2.337,2.337ZM1.721,1.721a.873.873,0,0,0-.256.616V9.246a.873.873,0,0,0,.872.872H13.913a.873.873,0,0,0,.872-.872V2.337a.873.873,0,0,0-.872-.872H2.337A.873.873,0,0,0,1.721,1.721Z" transform="translate(0 3.945)" fill="#ffbb38" style="mix-blend-mode: normal;isolation: isolate"/>
+        <path id="Vector-2" data-name="Vector" d="M12.235,11.583a.732.732,0,1,1,0-1.465h1.678a.873.873,0,0,0,.871-.872V2.337a.873.873,0,0,0-.871-.873H2.337a.873.873,0,0,0-.872.872v2.34A.732.732,0,1,1,0,4.677V2.337A2.339,2.339,0,0,1,2.337,0H13.913a2.339,2.339,0,0,1,2.336,2.337V9.246a2.339,2.339,0,0,1-2.336,2.337Z" transform="translate(3.282)" fill="#ffbb38" style="mix-blend-mode: normal;isolation: isolate"/>
+        <path id="Vector-3" data-name="Vector" d="M.732,3.925A.732.732,0,0,1,0,3.192V.732A.732.732,0,0,1,.732,0H15.518a.732.732,0,0,1,.732.732v2.46a.732.732,0,0,1-.732.732ZM14.785,2.46v-1H1.465v1Z" transform="translate(0 6.368)" fill="#ffbb38" style="mix-blend-mode: normal;isolation: isolate"/>
+      </g>
+    </g>
+  </g>
+</svg>

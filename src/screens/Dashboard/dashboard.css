@@ -1,0 +1,364 @@
+
+.container{
+    display: flex;
+}
+.nav{
+    width: 90vw;
+}
+.logo{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.dashboard-content{
+    /* height: 90vh; */
+ 
+}
+
+.dash{
+    background-color: #f6f7fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dashboard-content{
+display: flex;
+
+gap:1rem;
+margin: 0 3.4rem;
+
+
+
+}
+.person-grid{
+    display: flex;
+     display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:0.3rem
+}
+/* .card{
+    width: 25vw;
+    height:30vh;
+    margin-left:2rem;
+    margin-top: 1rem;
+} */
+.mycard{
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-top:1rem ;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+.credit-card{
+   /* background:  transparent linear-gradient(123deg, #4C49ED 0%, #0A06F4 100%) 0% 0% no-repeat padding-box; */
+   mix-blend-mode: normal;
+   height: 15rem;
+   width: 21rem ;
+   border-radius: 25px;
+}
+.blue-card{
+    background:  transparent linear-gradient(123deg, #4C49ED 0%, #0A06F4 100%) 0% 0% no-repeat padding-box;
+    color:white;
+}
+.card-primary{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 2rem 1rem 2rem;
+}
+
+.card-price{
+font-weight: 300;
+}
+.card-details{
+    padding-left: 2rem;
+    display: flex;
+    gap:2rem
+}
+
+.card-base-head{
+    font-size: 0.8rem;
+    color:#c6c5fa;
+    font-weight: 200;
+    text-transform:uppercase;
+}
+
+.card-base-detail{
+    margin-top: 0.3rem;
+  
+    font-size: 1rem;
+    font-weight: 300;
+}
+.cardexpire-detail p{
+    font-size: 0.7rem;
+    color:#c6c5fa;
+    font-weight: 200;
+    text-transform:uppercase;
+}
+.card-number-details{
+    display: flex;
+    justify-content: space-around;
+    height: 2.8rem;
+    margin-top: 1.6rem;
+    padding-top: 0.4rem;
+    align-items: center;
+    /* background: transparent linear-gradient(180deg, #0A6FF3 0%, #FFFFFF00 100%) 0% 0% no-repeat padding-box; */
+    mix-blend-mode: normal;
+    opacity: 1;
+
+}
+
+
+.seeAll{
+    font-size: 1rem;
+    font-weight: 300;
+  text-align: end;
+
+  margin: 0.6rem;
+  padding: 0.4rem 0;
+}
+.card-design-blue-base{
+     background: transparent linear-gradient(180deg, #0A6FF3 0%, #FFFFFF00 100%) 0% 0% no-repeat padding-box;
+}
+.card-white{
+    background-color: white;
+    border: 0.8354979157447815px solid #DFEAF2;
+}
+.white-design-card-base{
+    border-top: 0.8354979157447815px solid #DFEAF2;
+}
+
+.transaction-details{
+    display: flex;
+    flex-direction: column;
+
+}
+.transaction-detail{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.3rem;
+    padding-right: 1.5rem;
+    padding-left:1rem;
+    align-items: center;
+}
+.tran-date{
+    color:#718ebf;
+    font-weight: 300;
+}
+.debit{
+    color: #ff4b4a;
+    font-weight: 300;
+}
+.credited{
+    color:#42d4a8;
+    font-weight: 300;
+}
+
+.chart {
+    
+  }
+  .chart-bar{
+    height: 200px;
+    width: 655px;
+    margin-right: 2rem;
+    padding-top: 1rem;
+    padding: 1.5rem;
+   
+    border-radius: 25px;
+   
+    background:white;
+    display: flex;
+  }
+  .chart-container{
+    display: flex;
+    margin: 0 3.4rem;
+  }
+ 
+  .chart-pie{
+    background: white;
+    border-radius: 30px;
+    height: 200px;
+    padding-top: 1rem;
+    padding: 1.5rem;
+
+    width: 300px;
+  }
+  .Person-profile img{
+  border-radius: 50%;
+  }
+
+  
+  .person-info{
+   display: flex;
+   gap:1rem
+
+    }
+.heading-card{
+    font-size: 1.2rem;
+    font-weight: 300;
+
+    margin: 0.6rem;
+    padding: 0.4rem 0;
+}
+
+    .profile-details{
+        /* display: flex; */
+        gap:1.4rem;
+        background: white;
+        padding: 3ch;
+        width: 27rem;
+      margin-bottom: 1rem;
+        border-radius: 30px;
+       
+      }
+
+  .Person-profile {
+  border-radius: 50%;
+width: 4.6rem;
+height: 4.6rem;
+object-fit: cover;
+object-position: right;
+margin-bottom: 0.3rem;
+  }
+  
+  
+  .profile-title{
+    font-weight: 300;
+    font-size: 0.9rem;
+  }
+
+  .profile-role{
+    font-weight: 300;
+    font-size: 0.9rem;
+    color:#718ebf
+  }
+
+
+.profile-pic-details{
+    display: flex;
+    gap:2rem;
+    padding: 0.9rem;
+
+
+}
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.amount-input{
+    display: flex;
+    position: relative;
+    width: 12rem;
+
+}
+
+.amount-input input::placeholder{
+    
+    color:#718ebf;
+    font-weight: 100;
+    font-size: 0.8rem;
+    
+    
+}
+.amount-input input{
+    background:#EDF1F7 ;
+    border: none;
+    width: 8rem;
+    height: 2.3rem;
+    border-radius: 25px;
+    padding-left: 1rem;
+    }
+    
+
+.share-button{
+    position: absolute;
+    background: #1814f3;
+    right: 0px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    display: flex;
+ align-items: center;
+ gap:0.5rem;
+ border: none;
+ padding: 0.6rem 0.8rem;
+ border-radius: 20px;
+
+}
+.amount-text{
+    color:#718ebf;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.amount-action-field{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chart-line{
+    /* height: 15rem; */
+    height: 12rem;
+    width: 30rem;
+    background: white;
+    padding: 1.5rem;
+padding-left: 3.5rem;
+    border-radius: 20px;
+}
+.base-diagrams{
+    display: flex;
+    margin: 0 3.4rem;
+    gap:2rem;
+}
+
+@media screen and (max-width:1370px) {
+
+    .credit-card{
+        height: 15rem;
+    width: 20rem;
+    }
+    .chart-bar{
+            width: 600px;
+    }
+    .chart-line{
+width: 27rem;
+    }
+
+}
+
+@media screen and (max-width:1320px) {
+
+.dashboard-content {
+
+     overflow-x: scroll; 
+   
+    width: 85vw;
+
+}
+
+
+
+.chart-container{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.base-diagrams{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.chart-pie {
+
+    height: 460px;
+
+    width: 400px;
+}
+
+}

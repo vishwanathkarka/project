@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: white;
+    
+}
+.container{
+  display: flex;
+}
+.left-container{
+    width:55vw;
+    margin-top: 17vh;
+    margin-left: 12vw;
+  
+}
+
+.main-contain h1{
+ font-weight: 600;
+ font-size: 3rem;
+ margin-bottom: 1.5rem;
+}
+.main-contain h2{
+    font-weight: 500;  
+    font-size: 2rem;
+}
+.sub-contain{
+    display: flex;
+}
+.sub-contain-register p {
+margin-top: 4.5rem;
+font-size: 1.2rem;
+font-weight: 300;
+row-gap: 70px;
+}
+.sub-contain-register p a{
+    text-decoration: none;
+    color:#4C49ED;
+    font-weight: 500;
+}
+.sub-contain-img img{
+    height: 60vh;
+    width: 23vw;
+}
+
+.right-container{
+    margin-top: 4rem;
+  margin-right: 10rem;
+}
+.sign-in-heading{
+   font-weight: 500;
+   font-size: 1.7rem;
+   margin-bottom: 2rem;
+}
+.input{
+    display: block;
+    height: 3.6rem;
+    width: 23rem;
+   color:#2D60FF80;
+    border: none;
+    background: #f0efff;
+    border-radius: 6px;
+    font-size: 1rem;
+    padding:0  1rem;
+}
+#email{
+    margin-bottom: 1rem;
+}
+#password{
+    margin-bottom: 1rem;
+}
+
+.input::placeholder {
+    font-size: 0.9rem;
+    color:#2D60FF80;
+    opacity: 0.8; 
+  }
+.input:focus-visible{
+    border: none;
+    outline: none;
+}
+.forgot-password a{
+text-decoration: none;
+color:#b0b0b0;
+font-size: 0.8rem;
+text-align: end;
+display: block;
+margin-bottom: 1.5rem;
+}
+
+.right-container .sign-in-container {
+
+}
+.submit-button{
+    height: 3.5rem;
+    width: 25rem;
+    border-radius: 8px;
+    border: none;
+    background: #4C49ED;
+    color:white;
+    font-size: 1rem;
+    padding: 15px 10px ;
+}
+.login-subtext{
+    color:#b0b0b0;
+    margin-top: 3rem ;
+    text-align: center;
+    margin-bottom: 3rem ;
+}
+
+
+.login-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.3rem;
+}
+
+
+@media screen and (max-width:1369px) {
+    .left-container{
+        margin-top: 3rem;
+    margin-left: 10vw;
+    }
+    .right-container{
+        margin-top: 1rem;
+    margin-right: 7rem;
+    }
+    input{
+        width: 20rem;
+
+    }
+    .submit-button{
+        width: 25rem;
+    }
+}
+
+@media screen and (max-width:1183px) {
+    .left-container{
+        margin-top: 10vh;
+    margin-left: 8vw;
+    }
+    .right-container{
+        margin-top: 2rem;
+    margin-right: 5rem;
+    }
+}
+@media screen and (max-width:1107px) {
+
+    .sub-contain-register p{
+        font-size: 1rem;
+    }
+    .main-contain h2{
+        font-size: 1.5rem;
+    }
+    .main-contain h1{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width:884px) {
+    .left-container{
+        margin-top: 8vh;
+        margin-left: 5vw;
+    }
+    .right-container{
+        margin-top: 1rem;
+    margin-right: 2rem;
+    }
+}
+
+@media screen and (max-width:700px) {
+   
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-container{
+        margin-left: 5rem;
+        text-align: center;
+    }
+    .sub-contain{
+        text-align: center;
+        display: block;
+    }
+    .left-container {
+        margin-left: 0px;
+    }
+    .sub-contain-img img{
+        display: none;
+    }
+    .left-container{
+        width: 100vw;
+        margin-top: 1rem;
+    }
+    .sign-in-heading {
+        display: none;
+
+    }
+    .sub-contain-register p{
+        margin-top: 2rem;
+    }
+    .login-subtext{
+        margin-top: 1.4rem;
+        margin-bottom: 1.4rem;
+    }
+    .main-contain h1{
+        /* font-size: 1.7rem; */
+    }
+    #email{
+        margin-top: 1.5rem;
+    }
+    input{
+        margin-left: 0.5rem;
+    }
+    .submit-button{
+         margin-left: 0.5rem;
+    }
+}
+
+@media screen and (max-width:970px) {
+    .sub-contain-img img{
+        display: none;
+    }
+    .container{
+        margin-top: 3rem;
+    }
+}

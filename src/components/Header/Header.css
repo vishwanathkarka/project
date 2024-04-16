@@ -1,0 +1,11 @@
+.header{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+@media screen and (max-width:375px) {
+    .header{
+        margin-top: 1.5rem;
+        margin-left: 1.5rem;
+    }
+}
