@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../Login/Login.css";
-import "../Signup/Signup.css";
+import "./Signup.css";
 import Header from "../../components/Header/Header.jsx";
 import PersonDesk from "../../assets/Rectangle 2@2x.png";
 
