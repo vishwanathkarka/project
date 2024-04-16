@@ -3,8 +3,7 @@ import React from "react";
 import "./Dashboard.css";
 import Sidebar from "../../components/Sidebar/Sidebar.jsx";
 import Navigation from "../../components/Navigation/Navigation.jsx";
-import Notification from "../../assets/notification.svg";
-import ProfilePic from "../../assets/profile-pic.png";
+
 import Chip from "../../assets/Chip_Card.png";
 import CardLogo1 from "../../assets/card-logo1.svg";
 import CardLogo2 from "../../assets/card-logo2.svg";
@@ -15,7 +14,7 @@ import Chart from "chart.js/auto";
 import Person1 from "../../assets/person1.png";
 import { Bar, Pie,Line } from "react-chartjs-2";
 import LeftArrow from "../../assets/leftArrow.svg";
-import ApexCharts from "apexcharts";
+
 import ShareLogo from "../../assets/ShareLogo.svg"
 
 const BarChart = () => {
